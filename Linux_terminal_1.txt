@@ -1,0 +1,39 @@
+1.	pwd
+2.	mkdir HW_1
+3.	cd HW_1
+4.	mkdir dir_1 dir_2 dir_3
+5.	cd dir_3
+6.	touch A_1.txt a_2.txt A_3.txt B_1.json B_2.json
+7.	mkdir new_1 new_2 new_3
+8.	ls -la
+9.	vim A_1.txt
+10.	Text : 
+	test_1
+	test_2
+	test_3
+	test_4
+	test_5
+	test_6
+	Test_7
+	TEST_8
+11. 	esc :wq (или x)
+12. 	cd ..
+13. 	mv A_1.txt B_1.txt new_1
+14. 	cp A_2.txt B_2.json new_2
+15. 	find -name “test”
+16. 	tail -f
+17. 	head -n3 A_1.txt
+18. 	tail -n3 A_1.txt
+19. 	less A_1.txt
+20. 	date
+
+Скрипт
+#!/bin/bash
+cd HW_1/
+mkdir dir_1 dir_2 dir_3
+cd dir_1
+touch A_1.txt a_2.txt A_3.txt B_1.json B_2.json
+mkdir new_1 new_2 new_3
+ls -la
+mv a_2.txt B_1.json B_2.json /c/ANNA/QA/HW_1/HW_1
+
